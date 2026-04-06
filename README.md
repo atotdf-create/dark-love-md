@@ -35,3 +35,9 @@ Available 24/7 via WhatsApp. Click any service button on the website to send a m
 ## License
 
 © 2026 TDF TECH SUPPORT. All rights reserved.
+<p align="center">
+    <strong>1. FORK REPOSITORY</strong>
+  <br>
+    <a href="https://github.com/Dark-Xploit/CypherX/fork" target="_blank">
+        <img alt="Fork Repo" src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue"/>
+    </a>
