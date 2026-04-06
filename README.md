@@ -1,6 +1,6 @@
 # TDF TECH SUPPORT 
 
-A digital marketing and tech services website for **Dark-Love-MD**.
+A digital marketing and tech services website for **TDF TECH SUPPORT**.
 
 ## About
 
