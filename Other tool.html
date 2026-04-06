@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Tools - Dark-Love-MD</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #1a32a1;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        header {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #222;
+            color: #fff;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #21eb32;
+        }
+        .back-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        main {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 900px;
+        }
+        .border {
+            background-color: #2d343f;
+            border-color: #b039fa;
+            color: #000;
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0px;
+            border-radius: 40px 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 500px;
+        }
+        .border:hover {
+            transition: all .50s ease;
+            border: 1px solid;
+            transform: translateY(-5px) scale(1.03);
+        }
+        .invisible-btn {
+            font-size: 1rem;
+            font-weight: bold;
+            background-color: transparent;
+            border: none;
+            color: #21eb32;
+            cursor: pointer;
+            text-decoration: underline;
+            padding: 10px;
+        }
+        .invisible-btn:hover {
+            opacity: 0.7;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ddd;
+        }
+        p {
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Other Tools</h1>
+        <a href="index.html" class="back-button">Back</a>
+    </header>
+
+    <main>
+        <section>
+            <h1>𝗢𝗧𝗛𝗘𝗥 𝗧𝗢𝗢𝗟𝗦</h1>
+            <p>We provide free tools, games, calculators, and more. Explore our collection of useful tools below.</p>
+        </section>
+
+        <div class="border" style="border-color: #b039fa;">
+            <h3>Free Tools & Games</h3>
+            <p>Access our collection of free tools, games, and calculators. Contact us to learn more about what we offer.</p>
+            <button class="invisible-btn" onclick="sendMessage('I want to access your free tools and games')">Access Tools</button>
+        </div>
+    </main>
+
+    <footer>
+        <h5>© 2025 Dark-Love-MD</h5>
+    </footer>
+
+    <script>
+        function sendMessage(message) {
+            const phoneNumber = '09071214451';
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+
+</body>
+</html>
