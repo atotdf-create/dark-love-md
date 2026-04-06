@@ -1,10 +1,10 @@
-# Dark-Love-MD
+# TDF TECH SUPPORT 
 
 A digital marketing and tech services website for **Dark-Love-MD**.
 
 ## About
 
-Dark-Love-MD is a platform offering a variety of digital services including:
+TDF TECH SUPPORT is a platform offering a variety of digital services including:
 
 - WhatsApp Bot sales and deployment
 - Bot deployment site setup
@@ -34,4 +34,4 @@ Available 24/7 via WhatsApp. Click any service button on the website to send a m
 
 ## License
 
-© 2025 Dark-Love-MD. All rights reserved.
+© 2026 TDF TECH SUPPORT. All rights reserved.
